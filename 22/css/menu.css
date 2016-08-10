@@ -1,0 +1,179 @@
+#content {
+  text-align: center;
+}
+#content .mainImg {
+  margin: 1rem auto;
+  width: 12rem;
+}
+#content .mainImg img {
+  width: 100%;
+}
+#content section {
+  color: #97022c;
+  font-size: .18rem;
+}
+#content .cp {
+  margin: .16rem 0 1.37rem;
+  font-size: .16rem;
+}
+#content .Bakery {
+  margin: 0 auto;
+  width: 8rem;
+}
+#content .Bakery .menu {
+  float: left;
+  width: 2.44rem;
+  text-align: left;
+  font-size: .18rem;
+  line-height: 1.5;
+}
+#content .Bakery .menu span {
+  color: #97022c;
+}
+#content .Bakery .menu .search {
+  margin-top: .2rem;
+  border: 1px solid;
+  border-radius: .12rem;
+  width: 1.3rem;
+}
+#content .Bakery .menu .search img {
+  margin: .045rem .1rem;
+  float: left;
+  width: .18rem;
+}
+#content .Bakery img {
+  float: right;
+  width: 5.56rem;
+}
+#content .food {
+  overflow: hidden;
+  background-size: cover;
+  margin: .7rem auto;
+  width: 12rem;
+  font-size: .3rem;
+  color: #fff;
+}
+#content .food .san {
+  margin: .24rem 0 1.4rem 2rem;
+}
+#content .food .san .top div {
+  float: left;
+  width: 2.64rem;
+  height: 2.64rem;
+  background-size: 100% 100%;
+}
+#content .food .san .top .food1 {
+  background-image: url(../img/menuHot.jpg);
+}
+#content .food .san .top .food2 {
+  margin: 0 .1rem;
+  background-image: url(../img/menuBakery1.jpg);
+}
+#content .food .san .top .food3 {
+  background-image: url(../img/menuChees.jpg);
+}
+#content .food .san .bottom {
+  margin-top: .1rem;
+}
+#content .food .san .bottom div {
+  float: left;
+  width: 1.98rem;
+  height: 1.98rem;
+  background-size: 100% 100%;
+}
+#content .food .san .bottom .food4 {
+  background-image: url(../img/menuSandwitch.jpg);
+}
+#content .food .san .bottom .food5 {
+  margin: 0 .1rem;
+  background-image: url(../img/menuSala.jpg);
+}
+#content .food .san .bottom .food6 {
+  background-image: url(../img/menuYogu.jpg);
+}
+#content .food .san .bottom .food7 {
+  background-image: url(../img/menuEven.jpg);
+}
+#content .con {
+  margin: 0 auto;
+  border: 2px solid;
+  width: 6.48rem;
+  height: .1rem;
+}
+#content .con div {
+  box-sizing: border-box;
+  float: left;
+  border-right: 1px solid;
+  width: .54rem;
+  height: 100%;
+}
+#content .con .last {
+  border: 0;
+}
+#content .con .active {
+  background: #97022C;
+}
+#content .txt {
+  margin: 0 auto;
+  width: 6.48rem;
+}
+#content .txt span {
+  font-size: .14rem;
+  margin: .1rem .3rem;
+  display: inline-block;
+}
+#content .bottomImg {
+  margin: 1rem auto;
+  width: 6.48rem;
+  font-size: .5rem;
+  color: #97022C;
+}
+#content .bottomImg img {
+  width: 2.5rem;
+}
+#content .bottomImg .img1 {
+  float: left;
+}
+#content .bottomImg .img2 {
+  float: right;
+}
+#content .bottomTxt {
+  font-size: .16rem;
+  margin: 0 auto;
+  width: 6.48rem;
+  color: #97022C;
+}
+#content .bottomTxt .f .p1 {
+  float: left;
+}
+#content .bottomTxt .f .p2 {
+  float: right;
+}
+#content .bottomTxt .line {
+  width: 100%;
+  height: .2rem;
+  overflow: hidden;
+}
+@media screen and (max-width: 670px) {
+  #content .Bakery .menu {
+    float: none;
+    text-align: center;
+    width: 8rem;
+  }
+  #content .Bakery #bakeryImg {
+    float: none;
+    width: 8rem;
+  }
+  #content .Bakery .menu .search {
+    margin: .1rem auto;
+  }
+  #content .Bakery .menu .search img {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  #content .txt span {
+    margin: .1rem 0;
+  }
+}
+/*# sourceMappingURL=menu.css.map */
